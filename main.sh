@@ -15,6 +15,7 @@ echo "#                                                                         
 echo "-----------------------------------------------------------------------------------#"
 echo ""
 echo "* [0] InstalL warp"
+echo "* [1] install playit"
 echo "* [2] Exit
 
 read -p "Enter Input (0- 2): " input
@@ -24,5 +25,9 @@ case $input in
     0)
     apt update
     apt install curl -y
-    wget -N https://github.com/vincyxiroff/scriptvps/blob/main/warp/installwarp.sh && bash installwarp.sh;;
+    wget -N https://raw.githubusercontent.com/vincyxiroff/scriptvps/main/warp/installwarp.sh && bash installwarp.sh;;
+    0)
+    apt update
+    apt install curl -y
+    wget -N https://raw.githubusercontent.com/vincyxiroff/scriptvps/main/warp/installwarp.sh && bash installwarp.sh;;
     2) echo "Exit" && exit;;
