@@ -18,7 +18,7 @@ echo "* [0] InstalL warp"
 echo "* [1] install playit"
 echo "* [2] Exit
 
-read -p "Enter Input (0- 2): " input
+read -p "Enter Input (0-2): " input
 
 case $input in
 
