@@ -31,3 +31,5 @@ case $input in
     apt install curl -y
     wget -N https://raw.githubusercontent.com/vincyxiroff/scriptvps/main/warp/installplayit.sh && bash installplayit.sh;;
     2) echo "Exit" && exit;;
+
+esac
