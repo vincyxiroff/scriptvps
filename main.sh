@@ -26,8 +26,8 @@ case $input in
     apt update
     apt install curl -y
     wget -N https://raw.githubusercontent.com/vincyxiroff/scriptvps/main/warp/installwarp.sh && bash installwarp.sh;;
-    0)
+    1)
     apt update
     apt install curl -y
-    wget -N https://raw.githubusercontent.com/vincyxiroff/scriptvps/main/warp/installwarp.sh && bash installwarp.sh;;
+    wget -N https://raw.githubusercontent.com/vincyxiroff/scriptvps/main/warp/installplayit.sh && bash installplayit.sh;;
     2) echo "Exit" && exit;;
