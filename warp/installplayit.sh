@@ -8,7 +8,7 @@ if warp h foo >/dev/null 2>&1; then
     echo "##############################"
     sleep 10
     apt update -y && apt install curl -y
-    curl -SsL https://playit-cloud.github.io/ppa/key.gpg | sudo apt-key add - && apt-get update -y && apt-get install -y gnupg2 && apt-get install -y gnupg && curl -SsL -o /etc/apt/sources.list.d/playit-cloud.list https://playit-cloud.github.io/ppa/playit-cloud.list && sudo apt update -y && sudo apt install playit -y && apt install screen -y
+    curl -SsL https://playit-cloud.github.io/ppa/key.gpg | sudo apt-key add - && apt-get update -y && apt-get install -y gnupg2 && apt-get install -y gnupg && apt-get install -y gnupg && curl -SsL -o /etc/apt/sources.list.d/playit-cloud.list https://playit-cloud.github.io/ppa/playit-cloud.list && sudo apt update -y && sudo apt install playit -y && apt install screen -y
 
 
 
